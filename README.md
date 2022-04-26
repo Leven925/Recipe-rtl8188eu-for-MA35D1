@@ -3,7 +3,7 @@ Yocto rtl8188eu for MA35D1
 
 This recipe will add rtl8188eu.ko to MA35D1 root file system
 
-1. git clone to recipe-supports
+1. git clone this recipe to meta-ma35d1 recipe-supports
 2. Add rtl8188eu to conf/local.conf IMAGE_INSTALL_append
 3. bitbake your image
 
